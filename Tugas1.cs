@@ -15,10 +15,6 @@ namespace ConsoleApp1
             Console.WriteLine("Pilih menu perhitungan(1,2,3,4) :");
             {
                 int a = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Masukkan angka pertama:");
-                int b = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Masukkan Angka kedua:");
-                int c = Convert.ToInt32(Console.ReadLine());
                 {
                     if (a == 1)
                     {
@@ -58,7 +54,7 @@ namespace ConsoleApp1
                     }
                     else
                     {
-                        Console.WriteLine("Masukkan angka dengan benar")
+                        Console.WriteLine("Masukkan angka dengan benar");
                     }
                 }
             }
